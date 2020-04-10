@@ -1,0 +1,30 @@
+{
+    "root": ".", 
+    "plugins": [
+      "sequence-diagrams",
+      "theme-api",
+      "-search",
+      "github",
+      "expandable-chapters-small",
+      "splitter",
+      "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+      "tbfed-pagefooter": {
+          "copyright":"Copyright &copy xwlean 2020",
+          "modify_label": "modified at：",
+          "modify_format": "YYYY-MM-dd hh:mm:ss"
+      },
+      "github": {
+          "url": "https://github.com/xwlean/go-analysis-gitbook.git"
+      },
+      "theme-api": {
+        "split": false
+      },
+      "sequence-diagrams": {
+        "theme": "hand"
+      }
+    },
+    "title": "The Go Analysis Book"
+  }
+  
